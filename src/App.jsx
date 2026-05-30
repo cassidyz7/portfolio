@@ -1,122 +1,157 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import React from "react";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
+    return (
         <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+            <nav class="navbar background">
+                <ul class="nav-list">
+                    <div class="logo">
+                        <img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210420155809/gfg-new-logo.png"
+                        />
+                    </div>
+                    <li>
+                        <a href="#courses">Courses</a>
+                    </li>
+                    <li>
+                        <a href="#tutorials">Tutorials</a>
+                    </li>
+                    <li>
+                        <a href="#jobs">Jobs</a>
+                    </li>
+                    <li>
+                        <a href="#student">Student</a>
+                    </li>
+                </ul>
 
-      <div className="ticks"></div>
+                <div class="rightNav">
+                    <input
+                        type="text"
+                        name="search"
+                        id="search"
+                    />
+                    <button class="btn btn-sm">
+                        Search
+                    </button>
+                </div>
+            </nav>
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+            <section class="section">
+                <div class="box-main">
+                    <div class="firstHalf">
+                        <h1 class="text-big">
+                            PENIS SHIT BALLS RAHHH
+                        </h1>
+                        <p class="text-small">
+                            Hunting down a relevant job
+                            requires proper techniques for
+                            showcasing your potential to the
+                            employer. But with the advent of
+                            COVID-19, it has become a bit
+                            challenging and competitive to
+                            reach out for your dream job.
+                            Many individuals have lost their
+                            jobs during these times, and on
+                            the other hand, freshers are
+                            facing difficulties while
+                            applying for a new job. But
+                            there is no need for panic, you
+                            can change your ways and
+                            streamline things in a way that
+                            you get a proper result.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="box-main">
+                    <div class="secondHalf">
+                        <h1 class="text-big" id="program">
+                            JavaScript Tutorial
+                        </h1>
+                        <p class="text-small">
+                            JavaScript is the world most
+                            popular lightweight, interpreted
+                            compiled programming language.
+                            It is also known as scripting
+                            language for web pages. It is
+                            well-known for the development
+                            of web page many non-browser
+                            environments also use it.
+                            JavaScript can be used for
+                            Client-side developments as well
+                            as Server-side developments.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="box-main">
+                    <div class="secondHalf">
+                        <h1 class="text-big" id="program">
+                            Java Programming Language
+                        </h1>
+                        <p class="text-small">
+                            When compared with C++, Java
+                            codes are generally more
+                            maintainable because Java does
+                            not allow many things which may
+                            lead to bad/inefficient
+                            programming if used incorrectly.
+                            For example, non-primitives are
+                            always references in Java. So we
+                            cannot pass large objects (like
+                            we can do in C++) to functions,
+                            we always pass references in
+                            Java. One more example, since
+                            there are no pointers, bad
+                            memory access is also not
+                            possible. When compared with
+                            Python, Java kind of fits
+                            between C++ and Python. The
+                            programs are written in Java
+                            typically run faster than
+                            corresponding Python programs
+                            and slower than C++. Like C++,
+                            Java does static type checking,
+                            but Python does not.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="box-main">
+                    <div class="secondHalf">
+                        <h1 class="text-big" id="program">
+                            What is Machine Learning?
+                        </h1>
+                        <p class="text-small">
+                            Machine Learning is the field of
+                            study that gives computers the
+                            capability to learn without
+                            being explicitly programmed. ML
+                            is one of the most exciting
+                            technologies that one would have
+                            ever come across. As it is
+                            evident from the name, it gives
+                            the computer that makes it more
+                            similar to humans: The ability
+                            to learn. Machine learning is
+                            actively being used today,
+                            perhaps in many more places than
+                            one would expect.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <footer className="footer">
+                <p className="text-footer">
+                    Copyright ©-All rights are reserved
+                </p>
+            </footer>
         </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+    );
 }
 
-export default App
+export default App;
