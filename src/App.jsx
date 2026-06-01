@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import AboutMe from "./AboutMe";
 import Home from "./Home";
@@ -12,6 +12,7 @@ function App() {
         <BrowserRouter>
             <Navbar/>
             <Routes>
+                <Route path='/' element={<Navigate to='/portfolio' replace />} />
                 <Route path='/portfolio' element={<Home />} />
                 <Route path='/about-me' element={<AboutMe />} />
                 <Route path='/projects' element={<Projects />} />
