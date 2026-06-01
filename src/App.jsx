@@ -2,10 +2,10 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route, Link, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import AboutMe from "./AboutMe";
-import Home from "./Home";
-import Projects from "./Projects";
-import Socials from "./Socials";
+import AboutMe from "./pages/AboutMe";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Socials from "./pages/Socials";
 
 function App() {
     return (
