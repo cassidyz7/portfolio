@@ -4,8 +4,10 @@ import NavbarButton from "./NavbarButton";
 export default function Navbar() {
     return (
         <nav>
-            <NavbarButton to='/' text='Home' /> | {" "}
-            <NavbarButton to='/testpage' text='Test Button'/>
+            <NavbarButton to='/portfolio' text='Home' /> | {" "}
+            <NavbarButton to='/about-me' text='About Me'/> | {" "}
+            <NavbarButton to='/projects' text='Projects'/> | {" "}
+            <NavbarButton to='/contacts' text='Connect'/>
         </nav>
     );
 }
