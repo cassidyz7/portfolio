@@ -7,7 +7,6 @@ export default function Navbar() {
             <NavbarButton to='/portfolio' text='Home' /> | {" "}
             <NavbarButton to='/about-me' text='About Me'/> | {" "}
             <NavbarButton to='/projects' text='Projects'/> | {" "}
-            <NavbarButton to='/contacts' text='Connect'/>
         </nav>
     );
 }
