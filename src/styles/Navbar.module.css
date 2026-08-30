@@ -1,9 +1,14 @@
 .nav {
     display: flex;
     padding: 0.625rem 0.625rem 0 0.625rem;
-    justify-content: center;
+    justify-content: right;
     align-items: flex-start;
     gap: 0.625rem;
     align-self: stretch;
     background: #1C7293;
+}
+
+.hidden {
+    font-size: 1rem;
+    color: #1C7293;
 }

@@ -1,12 +1,19 @@
 import React from "react";
 import NavbarButton from "../components/NavbarButton";
 
+import style from "/src/styles/Home.module.css";
+
+import background from "/src/assets/background-port.png";
+
 export default function Home() {
     return (
         <div>
-            <div className="intro">
-                <h1>Hi, I'm Zachary Cassidy</h1>
-                <h3>College student aspiring for Software Engineering Co-Op</h3>
+            <div className={style.intro}>
+                <div className={style.introText}>
+                    <h1 className={style.name}>Hi, I'm Zachary Cassidy</h1>
+                    <h3 className={style.subtitle}>3rd year college student aspiring for Software Engineering Co-Op</h3>
+                </div>
+                <img src={background} alt="this didnt load"></img>
             </div>
             <div className="boxed" id="duration">
                 <h4>Years doing programming: 9+ years</h4>

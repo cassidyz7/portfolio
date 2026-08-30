@@ -1,15 +1,20 @@
 .navlink {
     color: #FFF;
-    font-family: "Hedvig Letters Sans";
-    font-size: 40px;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-size: 2.5rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 350;
     line-height: normal;
+    width: max-content;
+    flex-shrink: 0;
+
     display: flex;
-    padding: 12.5px 63px;
+    height: 2.9375rem;
+    padding: 0.78125rem 3.9375rem;
     justify-content: center;
-    align-items: right;
-    border-radius: 18px 18px 0 0;
+    align-items: center;
+
+    border-radius: 1.125rem 1.125rem 0 0;
     border: 6px solid #0C3959;
     background: #1B3B6F;
     text-decoration: none;
@@ -17,17 +22,22 @@
 
 .navlink:hover {
     color: #FFF;
-    font-family: "Hedvig Letters Sans";
-    font-size: 40px;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: max-content;
+
     display: flex;
-    padding: 12.5px 63px;
+    height: 2.9375rem;
+    padding: 0.78125rem 3.9375rem;
     justify-content: center;
-    align-items: right;
-    border-radius: 18px 18px 0 0;
-    border: 6px solid #0c3959b2;
-    background: #1b3b6f86;
+    align-items: center;
+
+    border-radius: 1.125rem 1.125rem 0 0;
+    border: 6px solid #0c3959bb;
+    background: #1b3b6fbb;
     text-decoration: none;
+    flex-shrink: 0;
 }
