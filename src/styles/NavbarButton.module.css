@@ -1,0 +1,33 @@
+.navlink {
+    color: #FFF;
+    font-family: "Hedvig Letters Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 12.5px 63px;
+    justify-content: center;
+    align-items: right;
+    border-radius: 18px 18px 0 0;
+    border: 6px solid #0C3959;
+    background: #1B3B6F;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: #FFF;
+    font-family: "Hedvig Letters Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 12.5px 63px;
+    justify-content: center;
+    align-items: right;
+    border-radius: 18px 18px 0 0;
+    border: 6px solid #0c3959b2;
+    background: #1b3b6f86;
+    text-decoration: none;
+}
