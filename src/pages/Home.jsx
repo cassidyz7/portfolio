@@ -16,6 +16,8 @@ export default function Home() {
                 <img src={background} alt="this didnt load"></img>
             </div>
             <div className={style.section2}>
+                {/* maybe a little blurb about me? like how old I am, where i go to school, that kinda thing */}
+                {/* just enough so they can learn a bit about me so they can be intrigued and want to look at more stuff */}
                 <div className={style.boxed} id="duration">
                     <h4 className={style.heading}>Years doing programming: 9+ years</h4>
                     <p className={style.subheading}>Self-taught until high school and college. eventually change this out for something that fills it more lorem ipsum dolor sit amet</p>
@@ -23,7 +25,7 @@ export default function Home() {
                 <div className={style.boxed} id="location">
                     <h4 className={style.heading}>Pittsburgh, PA, USA</h4>
                     <p className={style.subheading} >Located in the Greater Pittsburgh area and open to on-site work in both
-                    Pittsburg, PA and Rochester, NY, as well as remote work</p>
+                    Pittsburgh, PA and Rochester, NY, as well as remote work</p>
                 </div>
             </div>
             <div className="banner" id="skillsample">
