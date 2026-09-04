@@ -15,14 +15,16 @@ export default function Home() {
                 </div>
                 <img src={background} alt="this didnt load"></img>
             </div>
-            <div className="boxed" id="duration">
-                <h4>Years doing programming: 9+ years</h4>
-                <p>Self-taught until high school and college</p>
-            </div>
-            <div className="boxed" id="location">
-                <h4>Pittsburgh, PA, USA</h4>
-                <p>Located in the Greater Pittsburgh area and open to on-site work in both
-                   Pittsburg, PA and Rochester, NY, as well as remote work</p>
+            <div className={style.section2}>
+                <div className={style.boxed} id="duration">
+                    <h4 className={style.heading}>Years doing programming: 9+ years</h4>
+                    <p className={style.subheading}>Self-taught until high school and college. eventually change this out for something that fills it more lorem ipsum dolor sit amet</p>
+                </div>
+                <div className={style.boxed} id="location">
+                    <h4 className={style.heading}>Pittsburgh, PA, USA</h4>
+                    <p className={style.subheading} >Located in the Greater Pittsburgh area and open to on-site work in both
+                    Pittsburg, PA and Rochester, NY, as well as remote work</p>
+                </div>
             </div>
             <div className="banner" id="skillsample">
                 <h4>My Skills</h4>
@@ -30,8 +32,7 @@ export default function Home() {
                 <h5>Java</h5>
                 <h5>Python</h5>
                 <h5>JavaScript/HTML/CSS</h5>
-                <p>And more!</p>
-                <NavbarButton to='/about-me' text='About Me' />
+                <NavbarButton to='/about-me' text='And more!' />
             </div>
             <div className="banner" id="projects">
                 <h4>Explore My Projects</h4>
