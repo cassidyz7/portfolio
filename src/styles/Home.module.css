@@ -104,12 +104,15 @@ div {
 :root {
     --cheight: 10rem;
     --font: "Gowun Dodum", sans-serif;
+    --java-side: 10.5rem;
 }
 
 .smallboxed {
     width: 12.0625rem;
     height: 18.1875rem;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
 
     border-radius: 0.9375rem;
     background: #1C7293;
@@ -126,7 +129,27 @@ div {
     width: calc(var(--cheight) * (360/406));
     justify-content: center;
     align-items:center;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: 0.5rem;
+}
+
+.ctext {
+    font-family: var(--font);
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.javalogo {
+    height: var(--java-side);
+    width: var(--java-side);
+    justify-content: center;
+    align-items:center;
+    background-color: #FFFFFF;
+}
+
+.pythonlogo {
+    height: var(--java-side);
+    width: var(--java-side);
+    justify-content: center;
+    align-items:center;
 }

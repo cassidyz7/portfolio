@@ -36,18 +36,18 @@ export default function Home() {
             <div className={style.skills} id="skillsample">
                 <div className={style.smallboxed}>
                     <img src={c_logo} className={style.clogo}></img>
-                    <h5>C/C++</h5>
+                    <h5 className={style.ctext}>C/C++</h5>
                 </div>
                 <div className={style.smallboxed}>
-                    <img src={java}></img>
-                    <h5>Java</h5>
+                    <img src={java} className={style.javalogo}></img>
+                    <h5 className={style.ctext}>Java</h5>
                 </div>
                 <div className={style.smallboxed}>
-                    <img src={python}></img>
-                    <h5>Python</h5>
+                    <img src={python} className={style.pythonlogo}></img>
+                    <h5 className={style.ctext} >Python</h5>
                 </div>
                 <div className={style.smallboxed}>
-                    <img src={html}></img>
+                    {/* <img src={html}></img> */}
                     <h5>JavaScript/HTML/CSS</h5>
                 </div>
                 <h4>These are just some of my skills,</h4>
