@@ -4,6 +4,10 @@ import NavbarButton from "../components/NavbarButton";
 import style from "/src/styles/Home.module.css";
 
 import background from "/src/assets/background-port.png";
+import c_logo from "/src/assets/C_Logo.png";
+import html from "/src/assets/html5.webp";
+import java from "/src/assets/java.webp";
+import python from "/src/assets/python.webp";
 
 export default function Home() {
     return (
@@ -13,14 +17,15 @@ export default function Home() {
                     <h1 className={style.name}>Hi, I'm Zachary Cassidy</h1>
                     <h3 className={style.subtitle}>3rd year college student aspiring for Software Engineering Co-Op</h3>
                 </div>
-                <img src={background} alt="this didnt load"></img>
+                <img className={style.tunnel} src={background} alt="A tunnel that is curving from the left to the right, with ones and zeros lining the walls."></img>
             </div>
             <div className={style.section2}>
                 {/* maybe a little blurb about me? like how old I am, where i go to school, that kinda thing */}
                 {/* just enough so they can learn a bit about me so they can be intrigued and want to look at more stuff */}
-                <div className={style.boxed} id="duration">
-                    <h4 className={style.heading}>Years doing programming: 9+ years</h4>
-                    <p className={style.subheading}>Self-taught until high school and college. eventually change this out for something that fills it more lorem ipsum dolor sit amet</p>
+                <div className={style.boxed} id="blurb">
+                    <h4 className={style.heading}>A little about me...</h4>
+                    <p className={style.subheading}>I'm 20 years old and am a Computer Science student at RIT. Most of my project ideas come from a single thought: 
+                        "Man, it would be cool if I could..." which triggers me to go off and learn about whatever it is that interests me. I love learning by doing and trying new things.</p>
                 </div>
                 <div className={style.boxed} id="location">
                     <h4 className={style.heading}>Pittsburgh, PA, USA</h4>
@@ -28,13 +33,25 @@ export default function Home() {
                     Pittsburgh, PA and Rochester, NY, as well as remote work</p>
                 </div>
             </div>
-            <div className="banner" id="skillsample">
-                <h4>My Skills</h4>
-                <h5>C/C++</h5>
-                <h5>Java</h5>
-                <h5>Python</h5>
-                <h5>JavaScript/HTML/CSS</h5>
-                <NavbarButton to='/about-me' text='And more!' />
+            <div className={style.skills} id="skillsample">
+                <div className={style.smallboxed}>
+                    <img src={c_logo} className={style.clogo}></img>
+                    <h5>C/C++</h5>
+                </div>
+                <div className={style.smallboxed}>
+                    <img src={java}></img>
+                    <h5>Java</h5>
+                </div>
+                <div className={style.smallboxed}>
+                    <img src={python}></img>
+                    <h5>Python</h5>
+                </div>
+                <div className={style.smallboxed}>
+                    <img src={html}></img>
+                    <h5>JavaScript/HTML/CSS</h5>
+                </div>
+                <h4>These are just some of my skills,</h4>
+                <NavbarButton to='/about-me' text='Explore the Rest!' />
             </div>
             <div className="banner" id="projects">
                 <h4>Explore My Projects</h4>
@@ -43,7 +60,6 @@ export default function Home() {
             <div className="banner" id="contact">
                 <h4>Have an idea and want to reach out?</h4>
                 <h5>Contact me below!</h5>
-                <NavbarButton to='/contacts' text='Reach out' />
             </div>
         </div>
         
