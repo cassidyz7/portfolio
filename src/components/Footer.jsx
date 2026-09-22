@@ -12,9 +12,9 @@ export default function Footer() {
     <div className={style.contact} id="contact">
         <h7>Contact me below!</h7>
         <div className={style.horiz}>
-            <a href="https://www.github.com/cassidyz7" target="_blank"><img src={github} className={style.linkbox}></img></a>
-            <a href="mailto:cassidyzachary7@gmail.com"><img src={email} className={style.linkbox}></img></a>
-            <a href="https://www.linkedin.com/in/zachary-cassidy-18263b385" target="_blank"><img src={linkedin} className={style.linkbox}></img></a>
+            <a href="https://www.github.com/cassidyz7" target="_blank" rel="noopener noreferrer"><img src={github} className={style.linkbox}></img></a>
+            <a href="mailto:cassidyzachary7@gmail.com" rel="noopener noreferrer"><img src={email} className={style.linkbox}></img></a>
+            <a href="https://www.linkedin.com/in/zachary-cassidy-18263b385" target="_blank" rel="noopener noreferrer"><img src={linkedin} className={style.linkbox}></img></a>
         </div>
     </div>
     )

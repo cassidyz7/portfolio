@@ -22,7 +22,7 @@ export default function Projects() {
                     <h3>This is a really big blob of text describing the thing that is pictured to the left lorem ipsum 
                         dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet
                         lorem ipsum dolor sit amet lorem ipsum dolor sit amet</h3>
-                    <a href="" className={style.projButton}>I don't go anywhere yet but i will go to the github for the thing!!!!</a>
+                    <a href="https://github.com/cassidyz7/platformer-v2.0" className={style.projButton} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                 </div>
             </div>
                 
@@ -33,7 +33,7 @@ export default function Projects() {
                     <h3>This is a really big blob of text describing the thing that is pictured to the left lorem ipsum 
                         dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet
                         lorem ipsum dolor sit amet lorem ipsum dolor sit amet</h3>
-                    <a href="" className={style.projButton}>I don't go anywhere yet but i will go to the github for the thing!!!!</a>
+                    <a href="https://github.com/cassidyz7/Assembly-and-CPU" className={style.projButton} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                 </div>
             </div>
 
@@ -44,7 +44,7 @@ export default function Projects() {
                     <h3>This is a really big blob of text describing the thing that is pictured to the left lorem ipsum 
                         dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet
                         lorem ipsum dolor sit amet lorem ipsum dolor sit amet</h3>
-                    <a href="" className={style.projButton}>I don't go anywhere yet but i will go to the github for the thing!!!!</a>
+                    <a href="https://github.com/cassidyz7/3DEngine" className={style.projButton} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                 </div>
             </div>
 
@@ -55,7 +55,7 @@ export default function Projects() {
                     <h3>This is a really big blob of text describing the thing that is pictured to the left lorem ipsum 
                         dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet
                         lorem ipsum dolor sit amet lorem ipsum dolor sit amet</h3>
-                    <a href="" className={style.projButton}>I don't go anywhere yet but i will go to the github for the thing!!!!</a>
+                    <a href="https://github.com/cassidyz7/portfolio" className={style.projButton} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                 </div>
             </div>
         </div>
