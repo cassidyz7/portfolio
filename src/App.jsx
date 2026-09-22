@@ -6,10 +6,12 @@ import AboutMe from "./pages/AboutMe";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
     return (
         <BrowserRouter>
+            <ScrollToTop/>
             <Navbar/>
             <Routes>
                 <Route path='/' element={<Navigate to='/portfolio' replace />} />

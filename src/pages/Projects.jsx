@@ -14,6 +14,11 @@ export default function Projects() {
     return (
         <div>
             <title>Projects | Zachary Cassidy's Portfolio</title>
+
+            <div className={style.header}>
+                Projects
+            </div>
+
             {/* This should be the standard format for each project whenever I add one*/}
             <div className={style.project}>
                 <img src={platform_thumb} className = {style.projPic}></img>
@@ -42,7 +47,7 @@ export default function Projects() {
                 <img src={thumb_3d} className = {style.projPic}></img>
                 <div className={style.projText}>
                     <h1>Basic 3D Renderer</h1>
-                    <h3>Built with C++ and SDL3 like the platformer, this is a very simple 3D renderer that uses a basic projection method to project 3D points onto a 2D screen and draw lines between them. 
+                    <h3>Built with C++ and SDL3, this is a very simple 3D renderer that uses a basic projection method to project 3D points onto a 2D screen and draw lines between them. 
                         It is still in the very beginning stages of development and needs more work to be more than a simple demo.
                     </h3>
                     <a href="https://github.com/cassidyz7/3DEngine" className={style.projButton} target="_blank" rel="noopener noreferrer">GitHub Repo</a>

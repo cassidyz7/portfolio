@@ -2,6 +2,19 @@
     --font: "Gowun Dodum", sans-serif;
 }
 
+.header {
+    height: 15.25rem;
+    flex-shrink: 0;
+    align-self: stretch;
+    background: #1C7293;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0rem;
+    color: #FFFFFF;
+    font-family: var(--font);
+    font-size: 6rem;
+}
 
 .project {
     height: 35.25rem;
