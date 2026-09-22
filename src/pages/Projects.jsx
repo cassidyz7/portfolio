@@ -14,8 +14,8 @@ export default function Projects() {
                 <div>
                     <h5>This is a title!!!!!</h5>
                     <p>This is a really big blob of text describing the thing that is pictured to the left lorem ipsum 
-                        dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit amet
-                        lorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit amet</p>
+                        dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+                        lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
                     <a href="">I don't go anywhere yet but i will go to the github for the thing!!!!</a>
                 </div>
             </div>
