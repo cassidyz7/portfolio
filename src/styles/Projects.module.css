@@ -16,6 +16,7 @@
 
 .projPic {
     margin-left: 0.5rem;
+    margin-right: 0.5rem;
     width: 26rem;
     height: 26rem;    
     border-radius: 0.9375rem;
@@ -54,6 +55,8 @@
     padding: 0rem;
     gap: 0rem;
     box-sizing: content-box;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
 }
 
 
