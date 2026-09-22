@@ -13,6 +13,7 @@ import python from "/src/assets/python.webp";
 export default function Home() {
     return (
         <div>
+            <title>Home | Zachary Cassidy's Portfolio</title>
             <div className={style.intro}>
                 <div className={style.introText}>
                     <h1 className={style.name}>Hi, I'm Zachary Cassidy</h1>
