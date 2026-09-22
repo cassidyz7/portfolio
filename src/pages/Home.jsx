@@ -4,13 +4,11 @@ import NavbarButton from "../components/NavbarButton";
 import style from "/src/styles/Home.module.css";
 
 import background from "/src/assets/background-port.png";
+import portGif from "/src/assets/port-gif.gif";
 import c_logo from "/src/assets/C_Logo.png";
 import html from "/src/assets/html5.webp";
 import java from "/src/assets/java.webp";
 import python from "/src/assets/python.webp";
-import email from "/src/assets/email.png";
-import github from "/src/assets/github.png";
-import linkedin from "/src/assets/linkedin.png";
 
 export default function Home() {
     return (
@@ -59,21 +57,14 @@ export default function Home() {
                     <NavbarButton to='/about-me' text='Explore the Rest!' className = {style.skillButton}/>
                 </div>
             </div>
+            {/* i dont know why the gif rendered so slowly especially when i told it to export faster than that */}
             <div className={style.explore} id="projects">
                 <div className={style.exploreGif}>
-                    <p>THIS WILL HOLD A GIF OR SOMETHING ONCE I MAKE IT BUT UNTIL THEN LOREM IPSUM DOLOR SIT AMET</p>
+                    <img src={portGif} alt="Preview of my project" />
                 </div>
                 <div className={style.exploreStuff}>
                     <h4 className={style.exploreText}>Explore My Projects</h4>
                     <NavbarButton to='/projects' text='My Projects' className={style.exploreButton}/>
-                </div>
-            </div>
-            <div className={style.contact} id="contact">
-                <h7>Contact me below!</h7>
-                <div className={style.horiz}>
-                    <a href="https://www.github.com/cassidyz7" target="_blank"><img src={github} className={style.linkbox}></img></a>
-                    <a href="mailto:cassidyzachary7@gmail.com"><img src={email} className={style.linkbox}></img></a>
-                    <a href="https://www.linkedin.com/in/zachary-cassidy-18263b385" target="_blank"><img src={linkedin} className={style.linkbox}></img></a>
                 </div>
             </div>
         </div>

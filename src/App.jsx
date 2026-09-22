@@ -5,17 +5,19 @@ import Navbar from "./components/Navbar";
 import AboutMe from "./pages/AboutMe";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import Footer from "./components/Footer";
 
 function App() {
     return (
         <BrowserRouter>
-            {/* <Navbar/> */}
+            <Navbar/>
             <Routes>
                 <Route path='/' element={<Navigate to='/portfolio' replace />} />
                 <Route path='/portfolio' element={<Home />} />
                 <Route path='/projects' element={<Projects />} />
                 <Route path='/about-me' element={<AboutMe />} />
             </Routes>
+            <Footer/>
         </BrowserRouter>
         
     );
