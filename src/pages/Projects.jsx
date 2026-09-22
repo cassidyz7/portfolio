@@ -10,13 +10,13 @@ export default function Projects() {
             <title>Projects | Zachary Cassidy's Portfolio</title>
             {/* This should be the standard format for each project whenever I add one*/}
             <div className={style.project}>
-                <img src={c_logo}></img>
-                <div>
+                <img src={c_logo} className = {style.projPic}></img>
+                <div className={style.projText}>
                     <h5>This is a title!!!!!</h5>
                     <p>This is a really big blob of text describing the thing that is pictured to the left lorem ipsum 
                         dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet
                         lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
-                    <a href="">I don't go anywhere yet but i will go to the github for the thing!!!!</a>
+                    <a href="" className={style.projButton}>I don't go anywhere yet but i will go to the github for the thing!!!!</a>
                 </div>
             </div>
             <div className={style.project}>

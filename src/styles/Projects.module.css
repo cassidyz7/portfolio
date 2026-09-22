@@ -3,4 +3,71 @@
     flex-shrink: 0;
     align-self: stretch;
     background: #1B3B6F;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projPic {
+    width: 26rem;
+    height: 26rem;    
+    border-radius: 0.9375rem;
+    background: #1C7293;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    align-content: center;
+    justify-content: center;
+}
+
+
+.projText {
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+}
+
+
+.projButton {
+    display: flex;
+    width: 10rem;
+    height: 2.5rem;
+    padding: 1.3125rem 6.0625rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 1.125rem;
+    background: linear-gradient(180deg, #1C7293 0%, #1C7293 100%);
+    /* drop shadow */
+    box-shadow: 0 9px 6.8px 0 rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.projButton:hover {
+    display: flex;
+    width: 10rem;
+    height: 2.5rem;
+    padding: 1.3125rem 6.0625rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 1.125rem;
+    background: linear-gradient(180deg, #1c7193c0 0%, #1c7193b0 100%);
+    /* drop shadow */
+    box-shadow: 0 9px 6.8px 0 rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
 }
