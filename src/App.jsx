@@ -10,7 +10,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
     return (
-        <BrowserRouter basename={ProcessingInstruction.env.PUBLIC_URL}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <ScrollToTop/>
             <Navbar/>
             <Routes>
