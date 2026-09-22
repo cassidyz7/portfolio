@@ -42,9 +42,9 @@ export default function Projects() {
                 <img src={thumb_3d} className = {style.projPic}></img>
                 <div className={style.projText}>
                     <h1>Basic 3D Renderer</h1>
-                    <h3>This is a really big blob of text describing the thing that is pictured to the left lorem ipsum 
-                        dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-                        lorem ipsum dolor sit amet lorem ipsum dolor sit amet</h3>
+                    <h3>Built with C++ and SDL3 like the platformer, this is a very simple 3D renderer that uses a basic projection method to project 3D points onto a 2D screen and draw lines between them. 
+                        It is still in the very beginning stages of development and needs more work to be more than a simple demo.
+                    </h3>
                     <a href="https://github.com/cassidyz7/3DEngine" className={style.projButton} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                 </div>
             </div>
@@ -53,9 +53,9 @@ export default function Projects() {
                 <img src={background_port} className = {style.projPic}></img>
                 <div className={style.projText}>
                     <h1>Portfolio Website</h1>
-                    <h3>This is a really big blob of text describing the thing that is pictured to the left lorem ipsum 
-                        dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet
-                        lorem ipsum dolor sit amet lorem ipsum dolor sit amet</h3>
+                    <h3>Written in React, built with Vite and deployed on GitHub Pages, it's the website you're looking at! This will house links to all my major projects as well as
+                        containing contact information for me and information about me in general.
+                    </h3>
                     <a href="https://github.com/cassidyz7/portfolio" className={style.projButton} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                 </div>
             </div>
