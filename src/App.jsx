@@ -9,12 +9,12 @@ import Projects from "./pages/Projects";
 function App() {
     return (
         <BrowserRouter>
-            <Navbar/>
+            {/* <Navbar/> */}
             <Routes>
                 <Route path='/' element={<Navigate to='/portfolio' replace />} />
                 <Route path='/portfolio' element={<Home />} />
-                <Route path='/about-me' element={<AboutMe />} />
                 <Route path='/projects' element={<Projects />} />
+                <Route path='/about-me' element={<AboutMe />} />
             </Routes>
         </BrowserRouter>
         
