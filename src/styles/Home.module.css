@@ -96,13 +96,14 @@ div {
     height: 27.9375rem;
     padding: 1.5625rem 1.25rem;
     align-items: center;
+    justify-content: center;
     gap: 1.125rem;
     flex-shrink: 0;
     background: linear-gradient(180deg, #1B3B6F -111.58%, #1E6E91 321.24%);
 }
 
 :root {
-    --cheight: 10rem;
+    --cheight: 10.5rem;
     --font: "Gowun Dodum", sans-serif;
     --java-side: 10.5rem;
 }
@@ -152,4 +153,160 @@ div {
     width: var(--java-side);
     justify-content: center;
     align-items:center;
+}
+
+.skillMore {
+    padding-left: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    text-align: center;
+}
+
+.skillText {
+    display: flex;
+    width: 20rem;
+    height: 2.8rem;
+    padding: 1.3125rem 6.0625rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    font-family: var(--font);
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.skillButton {
+    display: flex;
+    width: 20rem;
+    height: 5rem;
+    padding: 1.3125rem 6.0625rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 1.125rem;
+    background: linear-gradient(180deg, #1C7293 0%, #1C7293 100%);
+    /* drop shadow */
+    box-shadow: 0 9px 6.8px 0 rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.skillButton:hover {
+    display: flex;
+    width: 20rem;
+    height: 5rem;
+    padding: 1.3125rem 6.0625rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 1.125rem;
+    background: linear-gradient(180deg, #1c7193c0 0%, #1c7193b0 100%);
+    /* drop shadow */
+    box-shadow: 0 9px 6.8px 0 rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.explore {
+    display: flex;
+    height: 27.9375rem;
+    padding: 1.5625rem 1.25rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1.125rem;
+    align-self: stretch;
+    background: linear-gradient(180deg, #1B3B6F -193.61%, #1E6E91 202.27%);
+}
+
+.exploreGif {
+    width: 27.5rem;
+    height: 27.5rem;    
+    border-radius: 0.9375rem;
+    background: #1C7293;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    align-content: center;
+    justify-content: center;
+}
+
+.exploreText {
+    display: flex;
+    width: 20rem;
+    height: 2.8rem;
+    padding: 1.3125rem 6.0625rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    font-family: var(--font);
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.exploreButton {
+    display: flex;
+    width: 20rem;
+    height: 5rem;
+    padding: 1.3125rem 6.0625rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 1.125rem;
+    background: linear-gradient(180deg, #1C7293 0%, #1C7293 100%);
+    /* drop shadow */
+    box-shadow: 0 9px 6.8px 0 rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.exploreButton:hover {
+    display: flex;
+    width: 20rem;
+    height: 5rem;
+    padding: 1.3125rem 6.0625rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 1.125rem;
+    background: linear-gradient(180deg, #1c7193bd 0%, #1c7193ad 100%);
+    /* drop shadow */
+    box-shadow: 0 9px 6.8px 0 rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
 }
