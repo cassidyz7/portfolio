@@ -1,0 +1,47 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 14rem;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    background: linear-gradient(180deg, #1B3B6F -295.76%, #1E6E91 100%);
+    color: #FFFFFF;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.linkbox {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.96875rem 1.375rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.125rem;
+    background: #0C3959;
+    /* drop shadow */
+    box-shadow: 0 9px 6.8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.linkbox:hover {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.96875rem 1.375rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.125rem;
+    background: #0c3959c4;
+    /* drop shadow */
+    box-shadow: 0 9px 6.8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.horiz {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}

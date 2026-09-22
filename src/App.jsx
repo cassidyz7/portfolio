@@ -5,17 +5,21 @@ import Navbar from "./components/Navbar";
 import AboutMe from "./pages/AboutMe";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
     return (
         <BrowserRouter>
-            {/* <Navbar/> */}
+            <ScrollToTop/>
+            <Navbar/>
             <Routes>
                 <Route path='/' element={<Navigate to='/portfolio' replace />} />
                 <Route path='/portfolio' element={<Home />} />
                 <Route path='/projects' element={<Projects />} />
                 <Route path='/about-me' element={<AboutMe />} />
             </Routes>
+            <Footer/>
         </BrowserRouter>
         
     );

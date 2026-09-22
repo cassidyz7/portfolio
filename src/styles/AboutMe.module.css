@@ -1,0 +1,119 @@
+:root {
+    --cheight: 10.5rem;
+    --font: "Gowun Dodum", sans-serif;
+    --java-side: 10.5rem;
+}
+
+.header {
+    height: 15.25rem;
+    flex-shrink: 0;
+    align-self: stretch;
+    background: #1C7293;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0rem;
+    color: #FFFFFF;
+    font-family: var(--font);
+    font-size: 6rem;
+}
+
+.smallboxed {
+    width: 12.0625rem;
+    height: 18.1875rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 0.9375rem;
+    background: #1C7293;
+    /* drop shadow */
+    box-shadow: 0 9px 6.8px 0 rgba(0, 0, 0, 0.25);
+
+    justify-content: center;
+    align-items:center;
+}
+
+.wrapper {
+    background: #1B3B6F;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.wrapper h3{
+    padding-top: 0.2rem;
+    color: #FFFFFF;
+    font-family: var(--font);
+    font-size: 3rem;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(4,12rem);
+    height: 40.9375rem;
+    padding: 1.5625rem 1.25rem;
+    align-items: center;
+    justify-content: center;
+    align-content:center;
+    justify-items: center;
+    gap: 1.125rem;
+    flex-shrink: 0;
+    background: #1B3B6F;
+}
+
+.clogo {
+    height: var(--cheight);
+    width: calc(var(--cheight) * (360/406));
+    justify-content: center;
+    align-items:center;
+}
+
+.ctext {
+    font-family: var(--font);
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.javalogo {
+    height: var(--java-side);
+    width: var(--java-side);
+    justify-content: center;
+    align-items:center;
+    background-color: #FFFFFF;
+    padding: 0.3rem 0.3rem;
+    border-radius: 15%;
+}
+
+.pythonlogo {
+    height: var(--java-side);
+    width: var(--java-side);
+    justify-content: center;
+    align-items:center;
+    background-color: #FFFFFF;
+    padding: 0.3rem 0.3rem;
+    border-radius: 15%;
+}
+
+.blurb {
+    height: 35.25rem;
+    flex-shrink: 0;
+    align-self: stretch;
+    background: #1B3B6F;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0rem;
+    color: #FFFFFF;
+    font-family:var(--font);
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.blurb p {
+    margin-left: 0.5rem;
+    margin-right:0.5rem;
+}
