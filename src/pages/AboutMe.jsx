@@ -2,6 +2,16 @@ import React from "react";
 
 import style from "/src/styles/AboutMe.module.css";
 
+import c_logo from "/src/assets/C_Logo.png";
+import html from "/src/assets/html5.webp";
+import java from "/src/assets/java.webp";
+import python from "/src/assets/python.webp";
+
+import angular from "/src/assets/angular.jpg";
+import springboot from "/src/assets/spring-boot.svg";
+import react from "/src/assets/react.svg";
+import sql from "/src/assets/sql_logo.png";
+
 export default function AboutMe() {
     return (
         <div>
@@ -39,8 +49,49 @@ export default function AboutMe() {
             {/* This div will hold all the other divs just listing out the 
             skills that I deem useful to include and have reason too.
             probably will limit it to just the various technologies and technical things.*/}
-            <div>
+            <div className={style.wrapper}>
+                <h3>My Skills</h3>
+                <div className={style.skills}>
+                    <div className={style.smallboxed}>
+                        <img src={c_logo} className={style.clogo}></img>
+                        <h5 className={style.ctext}>C/C++</h5>
+                    </div>
 
+                    <div className={style.smallboxed}>
+                        <img src={java} className={style.javalogo}></img>
+                        <h5 className={style.ctext}>Java</h5>
+                    </div>
+
+                    <div className={style.smallboxed}>
+                        <img src={python} className={style.pythonlogo}></img>
+                        <h5 className={style.ctext} >Python</h5>
+                    </div>
+
+                    <div className={style.smallboxed}>
+                        <img src={html} className={style.pythonlogo}></img>
+                        <h5 className={style.ctext}>JavaScript/HTML/CSS</h5>
+                    </div>
+
+                    <div className={style.smallboxed}>
+                        <img src={angular} className={style.pythonlogo}></img>
+                        <h5 className={style.ctext}>Angular</h5>
+                    </div>
+
+                    <div className={style.smallboxed}>
+                        <img src={sql} className={style.javalogo}></img>
+                        <h5 className={style.ctext}>SQL</h5>
+                    </div>
+
+                    <div className={style.smallboxed}>
+                        <img src={springboot} className={style.pythonlogo}></img>
+                        <h5 className={style.ctext} >SpringBoot</h5>
+                    </div>
+
+                    <div className={style.smallboxed}>
+                        <img src={react} className={style.pythonlogo}></img>
+                        <h5 className={style.ctext}>React</h5>
+                    </div>
+                </div>
             </div>
         </div>
     );
