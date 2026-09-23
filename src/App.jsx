@@ -10,7 +10,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
     return (
-        <BrowserRouter basename={import.meta.env.DEV ? '/' : '/my-repo-name'}>
+        <BrowserRouter>
             <ScrollToTop/>
             <Navbar/>
             <Routes>
